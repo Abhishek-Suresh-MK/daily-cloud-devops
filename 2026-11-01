@@ -1,0 +1,60 @@
+# Daily Cloud & DevOps Log — 2026-11-01
+
+## Today's Progress
+
+Continued my Cloud & DevOps learning journey through the ESC Bash platform. Today, I started the **Networking** section and focused on the fundamentals of computer networks, how clients and servers communicate, and how IP addresses identify devices on a network.
+
+I began by learning what a network is and how a client communicates with a server. I worked through practical exercises involving running a web server, accessing a page, and running the server on a different port. These exercises helped connect the theory of client-server communication with actual network requests.
+
+I also studied what a network packet is and practised using `ping` to communicate with the localhost address and inspect the output. This introduced me to basic connectivity testing and the role of packets in network communication.
+
+The next part covered IPv4 addressing, including how to find my IP address and distinguish between private and public IP addresses. I also explored the loopback address (`127.0.0.1`), tested serving and fetching content over loopback, and learned the basics of IPv6 by pinging the IPv6 loopback address.
+
+## Topics Covered
+
+### Network Fundamentals
+
+- What a computer network is and why devices need to communicate.
+- What a network packet is and how data is exchanged.
+- The client-server model and how clients send requests to servers.
+- Running a web server and fetching a page.
+- Running a server on a different port.
+- Sending a request to a real website.
+
+### Basic Connectivity Testing
+
+- Using `ping` to test connectivity with localhost.
+- Reading and understanding the output of a `ping` command.
+- Understanding how localhost can be used for local network testing.
+
+### IP Addressing
+
+- What an IPv4 address looks like.
+- Finding the IP address assigned to a device.
+- Understanding the difference between private and public IP addresses.
+- Classifying private and public IP addresses.
+- Understanding the loopback address `127.0.0.1`.
+- Serving and fetching content through the loopback interface.
+- Introduction to IPv6.
+- Testing the IPv6 loopback address.
+
+## Practical Exercises
+
+- Ran a local web server and fetched a page from it.
+- Changed the port used by the local server and accessed it.
+- Pinged localhost and inspected the command output.
+- Sent a request to a real website.
+- Found the device's IP address.
+- Classified example IP addresses as private or public.
+- Served and fetched content using the IPv4 loopback address.
+- Pinged the IPv6 loopback address.
+
+## Key Takeaway
+
+Today's session introduced the basic building blocks of networking. I learned how clients and servers communicate, how data is transferred in packets, and how IP addresses are used to identify devices. The practical exercises helped me understand localhost, ports, and basic connectivity testing.
+
+These concepts are important for Cloud and DevOps because servers, applications, and infrastructure depend on network communication. Understanding IP addressing, ports, and client-server interactions will also help when learning about DNS, routing, firewalls, and troubleshooting connectivity issues.
+
+## Next Steps
+
+Continue with the ESC Bash networking tutorial. Practise identifying IP addresses, testing connectivity, and working with local servers and ports. Then move on to the next networking concepts, focusing on how devices communicate across networks and how network services are reached.
